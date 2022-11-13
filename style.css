@@ -1,0 +1,69 @@
+body {
+    background-image: url("./bkg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+}
+
+
+.CText { 
+    font-style: italic;
+    position: relative;
+    font-size: 15px;
+}
+.Text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+    font-size: xx-large;
+    font-style: italic;
+
+    position: relative;
+    top: 20px;
+
+    cursor: default;
+    color: whitesmoke;
+    transition: all .10s linear;
+}
+
+.Text:hover{
+    color: rgb(120, 1, 63);
+}
+
+
+.MText {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sins", Arial, sans-serif;
+    transition: all .10s linear;
+}
+
+.MText:hover {
+    font-size: 55px;
+}
+
+.DescText {
+    color: rgb(193, 154, 107);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+
+#Example {
+
+    color: rgb(193, 154, 107);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#MainDesc {
+
+    width: 450px;
+    height: 800px;
+    border-radius: 10px;
+
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+}
